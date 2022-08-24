@@ -10,11 +10,13 @@ import Exam5 from './Exam/Exam5';
 import Exam6 from './Exam/Exam6';
 import TodoApp from './TodoApp';
 import CoinTracker from './CoinTracker';
+import MovieApp from './MovieApp';
+import Home from './Home';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <CoinTracker />
+  <App />
 );
 
 // If you want to start measuring performance in your app, pass a function
